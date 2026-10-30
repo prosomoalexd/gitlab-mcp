@@ -74,6 +74,9 @@ summary would drop the content they return or does not read their reply shape:
 `list_job_artifacts`, `list_protected_branches` (`*_access_levels`,
 `allow_force_push`), `list_protected_tags` (`create_access_levels`),
 `list_project_members` and `list_group_members` (`access_level`, `expires_at`),
+`list_group_iterations` and `list_project_iterations` (`start_date`,
+`due_date`), `list_group_iteration_cadences` (`start_date`,
+`duration_in_weeks`),
 `list_project_vulnerabilities`, `list_dependency_proxy_blobs`,
 `list_ci_catalog_resources`, `list_work_item_notes`,
 `list_custom_field_definitions`, and `list_work_item_statuses`. These also keep the full reply, because the summary
